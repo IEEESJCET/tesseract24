@@ -1,0 +1,19 @@
+.comming {
+  /* background-color: aqua; */
+  filter: blur(15px);
+}
+.comming_soon {
+  color: #ffa500;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.commingt {
+  /* background-color: aqua; */
+  filter: blur(4px);
+}
+.coming {
+  overflow: hidden;
+  width: 90dvw !important;
+}

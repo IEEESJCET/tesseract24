@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Script&display=swap');
+.section-with-overlay {
+    position: relative;
+    background-color: #000000;
+    
+    
+  }
+
+  .sold-out-box {
+    position: absolute;
+    top: 10px; /* Adjust the top margin as needed */
+    right: 0;
+    width: auto; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-color: #eb3333; /* Background color for the box */
+    color: #fff; /* Text color for the "Sold Out" text */
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px; /* Adjust the font size as needed */
+    padding: 5px; /* Adjust the padding as needed to fit the text */
+  }
+  
+  .sold-out-text {
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    margin: 0 auto; /* Center align the text */
+  }
+  
+  .section-with-overlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(54, 35, 35, 0.5); /* Adjust the background color and opacity as needed */
+    z-index: 2; /* Ensure this element is above the blurred section */
+  }
+  
+  .coming-soon {
+    position: absolute;
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    text-align: center;
+    color: #000;
+    background:transparent; /* Adjust the background color and opacity as needed */
+    padding: 20px;
+    border-radius: 8px;
+    /* backdrop-filter: blur(10px); Adjust the blur amount as needed */
+  }
+
+  .coming-soon-wk {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    text-align: center;
+    background: transparent; /* Adjust the background color and opacity as needed */
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    color: #000; /* Text color for "Revealing Soon" */
+  }
+
+  .coming-soon h2{
+    position: relative;
+    color: #ffa500;
+    font-size:60px;
+    -webkit-box-reflect: below 0px linear-gradient(transparent,#0008);
+    -webkit-text-stroke: 3px #fff;
+    font-weight: 600;
+    text-shadow: 0 0 10px #ff8c3b,;
+    background:   #fff;
+    /* background: url('https://i.pinimg.com/originals/1b/de/6e/1bde6e85c5e1665e0c4094c0cf0e2362.jpg') rgba(255, 165, 0, 0.90); */
+    width: 100vw;
+    background-size: contain;
+
+
+  }
+  
+  
+ 
+  
+.coming-soon h1 {
+   color: #fff;
+  }  
+
+  /* blurring div */
+
+  .ab {
+  position: relative;
+  overflow: hidden;
+}
+
+.abc {
+  position: relative;
+  z-index: 1;
+}
+
+.abcd{
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  z-index: 2;
+}
+
+.abcde {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  text-align: center;
+  background: transparent; /* Adjust the background color and opacity as needed */
+}
+
+.coming-soon-text {
+  position: relative;
+  text-transform: capitalize;
+  color: #ffa50087;
+  font-size: 2.3em;
+  -webkit-box-reflect: below -0px linear-gradient(transparent,#0008);
+  -webkit-text-stroke: 2px #fff;
+  
+  font-weight: 600;
+  text-shadow: 0 0 10px ,#fff /* Text color for "Coming Tomorrow" */
+}
+
+/* Exclude blur effect for div with class "no-blur" */
+.artists-thumb.no-blur .blurred-overlay {
+  backdrop-filter: none; /* No blur effect for this specific div */
+}
+
+.datestyling{
+  color: #fff;
+  font-weight: 600;
+}
