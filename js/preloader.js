@@ -1,7 +1,7 @@
 function preloader() {
   document.getElementById(
     "preloader-logo"
-  ).innerHTML = `<img src="images/tesseract.gif" alt="logo" width="500" class="preloader-logo">`;
+  ).innerHTML = `<object type="image/svg+xml" data="/images/tess.svg"></object>  `;
   setTimeout((e) => {
     document.getElementById("preloader").classList.toggle("hidden");
     document.getElementById("desktop").classList.toggle("hidden");
