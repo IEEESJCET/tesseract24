@@ -12,7 +12,7 @@ https://templatemo.com/tm-583-festava-live
 -----------------------------------------*/
 :root {
   --white-color: #ffffff;
-  --primary-color: #ffa500;
+  --primary-color: #003e4d;
   --secondary-color: #EE5007;
   --section-bg-color: #f0f8ff;
   --custom-btn-bg-color: #FFA500;
@@ -43,9 +43,10 @@ https://templatemo.com/tm-583-festava-live
   --font-weight-bold: 700;
 }
 
-html{
+html {
   scroll-behavior: smooth
 }
+
 body {
   background-color: var(--white-color);
   font-family: var(--body-font-family);
@@ -118,7 +119,7 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--white-color);
   text-decoration: none;
 }
 
@@ -304,7 +305,7 @@ strong {
   background: rgb(255, 255, 255);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color:  #003e4d  ;
+  color: #003e4d;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -424,8 +425,7 @@ strong {
 }
 
 .navbar-nav .nav-link.active {
-  color:  #003e4d
-  ;
+  color: #003e4d;
   background-color: #f4f4f4;
   font-weight: 600;
 }
@@ -605,7 +605,7 @@ strong {
   margin-top: 15px;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color:  #003e4d  ;
+  color: #003e4d;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -672,7 +672,7 @@ strong {
 
 .artists-hover {
   background-color: var(--primary-color);
-  background-color:black;
+  background-color: black;
   border-radius: var(--border-radius-medium);
   backdrop-filter: blur(5px) saturate(180%);
   -webkit-backdrop-filter: blur(5px) saturate(180%);
@@ -889,14 +889,18 @@ strong {
   SITE FOOTER              
 -----------------------------------------*/
 .site-footer {
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
   position: relative;
   overflow: hidden;
   padding-bottom: 30px;
 }
 
+.footer-title {
+  color: var(--primary-color);
+}
+
 .site-footer-top {
-  background-color: #ffa500;
+  background-color: white;
   background-image: url('../images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg');
   background-repeat: no-repeat;
   margin-bottom: 70px;
@@ -910,7 +914,7 @@ strong {
 }
 
 .site-footer-title {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .site-footer-link,
@@ -1028,7 +1032,7 @@ strong {
   }
 
   .navbar {
-    background-color: var(--dark-color);
+    background-color: var(--primary-color);
   }
 
   .navbar-expand-lg .navbar-nav {
