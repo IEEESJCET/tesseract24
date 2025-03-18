@@ -1,6 +1,6 @@
 function preloader() {
   document.getElementById("preloader-logo").innerHTML =
-    '<object type="image/svg+xml" data="https://ieeesjcet.github.io/tesseract24/images/tess.svg"></object>';
+    '<object class="responsive-svg" type="image/svg+xml" data="https://ieeesjcet.github.io/Tesseract-8.0/images/tess8.svg"></object>';
   setTimeout((e) => {
     document.getElementById("preloader").classList.toggle("hidden");
     document.getElementById("desktop").classList.toggle("hidden");

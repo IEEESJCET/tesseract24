@@ -53,7 +53,7 @@
 
 
   // Set the date to countdown to (replace with your desired date)
-const countdownDate = new Date("2024-04-26T00:00:00Z").getTime();
+const countdownDate = new Date("2025-03-29T00:00:00Z").getTime();
 
 // Update the countdown every 1 second
 const countdownInterval = setInterval(function () {

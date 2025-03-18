@@ -7,10 +7,11 @@
   }
 }
 :root {
-  --bgColor: #1d2d3d;
-  --bgColor2:   #003e4d
-
-  ;
+  --bgColor: #2e2424;
+  --bgColor2: #1a1a1a;
+  --starColor: rgba(255, 255, 255, 0.8);
+  --starGlow: rgba(0, 255, 255, 0.4);
+  --accentColor: #FF4500;
 }
 body {
   overflow-x: hidden;
@@ -33,19 +34,20 @@ body {
   );
 }
 
-#desktop .animated-background {
+
+#desktop .animated-background,
+.about-section .animated-background,
+.hero-section .animated-background {
   z-index: 0;
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  /* background-color: var(--bgColor) !important; */
-  background-color:  #003e4d
-
-
-  ;
+  background: var(--bgColor);
 }
+
+
 .about-section .animated-background,
 .hero-section .animated-background {
   z-index: 0;
@@ -55,16 +57,13 @@ body {
   height: 100%;
   width: 100%;
   /* background-color: var(--bgColor) !important; */
-  background-color:  #003e4d
+  background-color:  #2e2424
 
   ;
 }
 section {
-  /* background-color: var(--bgColor) !important; */
-  background-color: 
-  #003e4d
-
-  ;
+  position: relative;  /* Add relative positioning */
+  background-color: transparent;  /* Make section background transparent */
 }
 #stars1 {
   width: 1px;

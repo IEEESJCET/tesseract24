@@ -305,7 +305,7 @@ strong {
   background: rgb(255, 255, 255);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: #003e4d;
+  color: #2e2424;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -314,7 +314,7 @@ strong {
 }
 
 .custom-btn:hover {
-  background: #003e4d;
+  background: #2e2424;
   color: #fff;
 }
 
@@ -425,7 +425,7 @@ strong {
 }
 
 .navbar-nav .nav-link.active {
-  color: #003e4d;
+  color: #2e2424;
   background-color: #f4f4f4;
   font-weight: 600;
 }
@@ -605,12 +605,17 @@ strong {
   margin-top: 15px;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: #003e4d;
+  color: #2e2424;
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
   transition: all 0.3s;
   padding: 10px 20px;
+}
+
+.about-section .btn:hover {
+  background: #2e2424;
+  color: #fff;
 }
 
 
@@ -896,7 +901,7 @@ strong {
 }
 
 .footer-title {
-  color: var(--primary-color);
+  color: var(--white-color);
 }
 
 .site-footer-top {
